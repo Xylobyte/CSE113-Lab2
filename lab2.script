@@ -1,0 +1,160 @@
+Donovan Griego
+Lab 02
+September 14, 2020
+
+
+Script started on 2020-09-14 12:43:38-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="37"]
+]0;dxgriego@Parallels: ~/cse113/lab2[01;32mdxgriego@Parallels[00m:[01;34m~/cse113/lab2[00m$ exit./lab2 gcc -g -Wall lab2.c functions.o -o lab2 -lm[16P-c functions.c
+]0;dxgriego@Parallels: ~/cse113/lab2[01;32mdxgriego@Parallels[00m:[01;34m~/cse113/lab2[00m$ gcc -g -Wall -c functions.cexit[K./lab2 gcc -g -Wall lab2.c functions.o -o lab2 -lm
+]0;dxgriego@Parallels: ~/cse113/lab2[01;32mdxgriego@Parallels[00m:[01;34m~/cse113/lab2[00m$ ./lab2 
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): c
+A. Area of a circle
+C. Circumference of a circle
+Please enter your choice (A, C): a
+Enter the radius of the circle as a floating point number: 2.3
+The area of a circle with radius 2.300000 is 16.619024
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): c
+A. Area of a circle
+C. Circumference of a circle
+Please enter your choice (A, C): c
+Enter the radius of the circle as a floating point number: 5.6
+The circumference of a circle with radius 5.600000 is 35.185837
+
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): p
+E. Exterior angle of a regular polygon
+I. Interior angle of a regular polygon
+A. Area of a regular polygon
+Please enter your choice (E, I, A): e
+Enter the number of sides of a regular polygon as an integer: 8
+Enter the length of a the side of a regular polygon as a floating point number: 3.2
+The exterior angle of a regular polygon with 8 sides is 45.000000 degrees.
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): p
+E. Exterior angle of a regular polygon
+I. Interior angle of a regular polygon
+A. Area of a regular polygon
+Please enter your choice (E, I, A): i
+Enter the number of sides of a regular polygon as an integer: 7
+Enter the length of a the side of a regular polygon as a floating point number: 6.7
+The interior angle of a regular polygon with 7 sides is 128.000000 degrees.
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): p
+E. Exterior angle of a regular polygon
+I. Interior angle of a regular polygon
+A. Area of a regular polygon
+Please enter your choice (E, I, A): a
+Enter the number of sides of a regular polygon as an integer: 5
+Enter the length of a the side of a regular polygon as a floating point number: 5.9
+The area of a regular polygon with 5 sides, each 5.900000 long is 59.889820
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): r
+A. Area of a rectangle
+P. Perimeter of a rectangle
+D. Length of the diagonal of a rectangle
+Please enter your choice (A, P, D): a
+Enter the height of a rectangle as a whole (integer) number: 4 3
+Enter the width of a rectangle as a whole (integer) number: 8
+The area of a rectangle with height 3 and width 8 is 24
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): r
+A. Area of a rectangle
+P. Perimeter of a rectangle
+D. Length of the diagonal of a rectangle
+Please enter your choice (A, P, D): p
+Enter the height of a rectangle as a whole (integer) number: 6
+Enter the width of a rectangle as a whole (integer) number: 4
+The perimeter of a rectangle with height 6 and width 4 is 20
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): r
+A. Area of a rectangle
+P. Perimeter of a rectangle
+D. Length of the diagonal of a rectangle
+Please enter your choice (A, P, D): d
+Enter the height of a rectangle as a whole (integer) number: 7
+Enter the width of a rectangle as a whole (integer) number: 3
+The length of the diagonal of a rectangle with height 7 and width 3 is 7.615773
+
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): t
+A. Area of a right triangle
+P. Perimeter of a right triangle
+Please enter your choice (A, P): a
+Enter the height of a right triangle as a floating point number: 7.6
+Enter the base of a right triangle as a floating point number: 4.6
+The area of a triangle with height 7.600000 and base 4.600000 is 17.480000
+Would you like to continue? (Y/N) y
+Please select a geometry calculation:
+C. Circles
+P. Regular Polygons
+R. Rectangles
+T. Right Triangles
+
+Please enter your choice (C, P, R, T): t
+A. Area of a right triangle
+P. Perimeter of a right triangle
+Please enter your choice (A, P): p
+Enter the height of a right triangle as a floating point number: 3.2
+Enter the base of a right triangle as a floating point number: 5.6
+The perimeter of a triangle with height 3.200000 and base 5.600000 is 15.249806
+
+Would you like to continue? (Y/N) n
+]0;dxgriego@Parallels: ~/cse113/lab2[01;32mdxgriego@Parallels[00m:[01;34m~/cse113/lab2[00m$ exit
+exit
+
+Script done on 2020-09-14 12:46:31-06:00 [COMMAND_EXIT_CODE="0"]
